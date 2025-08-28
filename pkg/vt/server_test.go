@@ -1,11 +1,12 @@
 package vt
 
 import (
-	"botsrv/pkg/db"
 	"context"
 	"log"
 	"os"
 	"testing"
+
+	"botsrv/pkg/db"
 
 	"github.com/go-pg/pg/v10"
 )

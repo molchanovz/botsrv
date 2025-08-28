@@ -1,7 +1,6 @@
 package vt
 
 import (
-	"botsrv/pkg/botsrv"
 	"context"
 	"crypto/md5"
 	"fmt"
@@ -9,7 +8,9 @@ import (
 	"net/http"
 	"time"
 
+	"botsrv/pkg/botsrv"
 	"botsrv/pkg/db"
+
 	"github.com/vmkteam/zenrpc/v2"
 	"golang.org/x/crypto/bcrypt"
 )

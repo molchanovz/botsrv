@@ -1,8 +1,9 @@
 package vt
 
 import (
-	"botsrv/pkg/db"
 	"net/http"
+
+	"botsrv/pkg/db"
 
 	"github.com/vmkteam/embedlog"
 	zm "github.com/vmkteam/zenrpc-middleware"

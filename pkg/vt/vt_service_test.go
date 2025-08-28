@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"botsrv/pkg/db"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 
@@ -30,7 +31,11 @@ func TestDB_AuthService(t *testing.T) {
 				So(err, ShouldBeNil)
 				So(authKey, ShouldHaveLength, 32)
 
-				u, err := srv.commonRepo.EnabledUserByAuthKey(ctx, authKey)
+				if authKey == nil {
+					return
+				}
+
+				u, err := srv.commonRepo.EnabledUserByAuthKey(ctx, *authKey)
 				So(err, ShouldBeNil)
 				userCtx := context.WithValue(ctx, userKey, u)
 

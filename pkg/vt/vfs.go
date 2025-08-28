@@ -2,8 +2,9 @@
 package vt
 
 import (
-	"botsrv/pkg/db"
 	"path"
+
+	"botsrv/pkg/db"
 )
 
 const (
