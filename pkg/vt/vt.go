@@ -6,7 +6,7 @@ import (
 
 var (
 	slackWebhook = "https://hooks.slack.com/services/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"
-	token        = "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  "
+	token        = "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"
 )
 
 const maxPageSize = 500
