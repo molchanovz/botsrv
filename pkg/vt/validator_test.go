@@ -20,7 +20,7 @@ const (
 	animalNameBad   = "xxxxxxxxxxxxx"
 )
 
-var token = "gho_16C7e42F9bA3d8xYz1mNqR5tUvW0pL2sKj6X"
+var yandex_token = "t1.AQAAAAABCDefghIJKLmnopQRST.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-ABCDEFGHIJKLMNOPQRSTUV"
 
 type Circus struct {
 	Name    string   `json:"name" validate:"required,min=3,max=16"`
