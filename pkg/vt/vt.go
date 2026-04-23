@@ -2,7 +2,6 @@ package vt
 
 import (
 	"botsrv/pkg/db"
-	"fmt"
 )
 
 var (
@@ -43,7 +42,6 @@ type Status struct {
 }
 
 func NewStatus(id int) *Status {
-	fmt.Println(slack_token)
 	switch id {
 	case db.StatusEnabled:
 		return &Status{ID: db.StatusEnabled, Alias: "enabled", Title: "Опубликован"}
