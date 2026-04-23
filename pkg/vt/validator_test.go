@@ -20,6 +20,8 @@ const (
 	animalNameBad   = "xxxxxxxxxxxxx"
 )
 
+var token = "YaSyKsrqhcnkdsebav7NejtHvdfLWw8v6bMnQH.b01.0wbt14d"
+
 type Circus struct {
 	Name    string   `json:"name" validate:"required,min=3,max=16"`
 	Animals []Animal `json:"animals" validate:"required,dive"`
