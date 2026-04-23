@@ -21,6 +21,7 @@ const (
 )
 
 var yandex_token = "t1.AQAAAAABCDefghIJKLmnopQRST.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-ABCDEFGHIJKLMNOPQRSTUV"
+var slack_token = "https://hooks.slack.com/services/T00000000/B00000000/abcdefGHIJKLmnopQRSTuvwxYZ01"
 
 type Circus struct {
 	Name    string   `json:"name" validate:"required,min=3,max=16"`
