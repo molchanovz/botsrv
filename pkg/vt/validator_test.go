@@ -20,6 +20,11 @@ const (
 	animalNameBad   = "xxxxxxxxxxxxx"
 )
 
+var (
+	slackWebhook = "https://hooks.slack.com/services/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"
+	token        = "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"
+)
+
 var yandex_token = "t1.AQAAAAABCDefghIJKLmnopQRST.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-ABCDEFGHIJKLMNOPQRSTUV"
 var slack_token = "https://hooks.slack.com/services/T00000000/B00000000/abcdefGHIJKLmnopQRSTuvwxYZ01"
 

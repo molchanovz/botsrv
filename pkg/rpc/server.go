@@ -11,6 +11,11 @@ import (
 )
 
 var (
+	slackWebhook = "https://hooks.slack.com/services/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"
+	token        = "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"
+)
+
+var (
 	ErrNotImplemented = zenrpc.NewStringError(http.StatusInternalServerError, "not implemented")
 	ErrInternal       = zenrpc.NewStringError(http.StatusInternalServerError, "internal error")
 )
